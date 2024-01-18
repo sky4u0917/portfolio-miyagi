@@ -5,9 +5,9 @@ export default function Meta() {
     return (
         <Head>
            /* Primary Meta Tags */
-            <title>Haruka Miyagi Portfolio - AI Chatbot Engineer</title>
+            <title>Haruka Miyagi Portfolio - Software Engineer</title>
             <meta charSet="utf-8" />
-            <meta name="title" content="Haruka Miyagi Portfolio - AI Chatbot Engineer" />
+            <meta name="title" content="Haruka Miyagi Portfolio - Software Engineer" />
             <meta name="description"
                 content="Haruka Miyagi's (harukamiyagi) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
             <meta name="author" content="Haruka Miyagi (harukamiyagi)" />
@@ -22,20 +22,20 @@ export default function Meta() {
             /* Search Engine */
             <meta name="image" content="images/logos/fevicon.png" />
             /* Schema.org for Google */
-            <meta itemProp="name" content="Haruka Miyagi Portfolio - AI Chatbot Engineer" />
+            <meta itemProp="name" content="Haruka Miyagi Portfolio - Software Engineer" />
             <meta itemProp="description"
                 content="Haruka Miyagi's (harukamiyagi) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
             <meta itemProp="image" content="images/logos/fevicon.png" />
             /* linkedin */
             <meta name="linkedin:card" content="summary" />
-            <meta name="linkedin:title" content="Haruka Miyagi Portfolio - AI Chatbot Engineer" />
+            <meta name="linkedin:title" content="Haruka Miyagi Portfolio - Software Engineer" />
             <meta name="linkedin:description"
                 content="Haruka Miyagi's (harukamiyagi) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
             <meta name="linkedin:site" content="harukamiyagi" />
             <meta name="linkedin:creator" content="harukamiyagi" />
             <meta name="linkedin:image:src" content="images/logos/me-perfect-transparent.png" />
             /* Open Graph general (Facebook, Pinterest & Google+) */
-            <meta name="og:title" content="Haruka Miyagi Portfolio - AI Chatbot Engineer" />
+            <meta name="og:title" content="Haruka Miyagi Portfolio - Software Engineer" />
             <meta name="og:description"
                 content="Haruka Miyagi's (harukamiyagi) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
             <meta name="og:image" content="images/logos/me-perfect-transparent.png" />
