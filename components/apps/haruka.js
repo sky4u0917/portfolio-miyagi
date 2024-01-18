@@ -184,7 +184,7 @@ function Skills() {
                     I've worked with a variety of programming languages and frameworks.
                 </li>
                 <li className="list-arrow text-xl mt-4 leading-tight tracking-tight">
-                    <div> My areas of expertise are <strong className="text-ubt-gedit-orange"> React  & Python & Node ! </strong></div>
+                    <div> My areas of expertise are <strong className="text-ubt-gedit-orange"> Laravel  & MERN & Python ! </strong></div>
                 </li>
                 <li className="list-arrow text-xl mt-4 leading-tight tracking-tight">
                     <div>Here are my most frequently used</div>
