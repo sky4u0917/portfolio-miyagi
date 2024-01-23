@@ -149,7 +149,7 @@ function About() {
             </div>
             <div className="mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
                 <div>Here is <span className="font-bold">Haruka Miyagi</span> ,</div>
-                <div className="font-normal ml-1">I'm an <span className="text-orange-500 font-bold">Software Engineer!</span></div>
+                <div className="font-normal ml-1">I'm a <span className="text-orange-500 font-bold">Software Engineer!</span></div>
             </div>
             <ul className="mt-4 leading-tight tracking-tight text-sm md:text-base w-full md:w-5/6 emoji-list">
                 <li className="list-pc text-xl font-sans">
