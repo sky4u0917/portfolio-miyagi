@@ -332,7 +332,7 @@ function Projects() {
         {
             name: "Harcouts Holiday",
             date: "Dec 2019",
-            link: "https://mogwar.io/",
+            link: "https://www.harcourtsholidayhomes.co.nz/",
             description: [
                 "They’re a small, local team who have the utmost respect and care when it comes to ensuring your holiday stay is the best one it possibly could be. All their guests enjoy an outstanding level of service that is second to none, as are their beautiful private holiday homes.",
             ],
