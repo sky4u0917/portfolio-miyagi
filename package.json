@@ -1,8 +1,8 @@
 {
-  "name": "haruka-portfolio-haruka",
+  "name": "nicole-portfolio-nicole",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://www.haruka.com/",
+  "homepage": "https://www.nicole.com/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

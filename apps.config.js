@@ -6,7 +6,7 @@ import { displayChrome } from './components/apps/chrome';
 import { displayTrash } from './components/apps/trash';
 import { displayGedit } from './components/apps/gedit';
 // import { displayPortfolio } from './components/apps/portfolio';
-import { displayAboutHaruka } from './components/apps/haruka';
+import { displayAboutHaruka } from './components/apps/nicole';
 import { displayAboutResume } from './components/apps/resume';
 import { displayTerminalCalc } from './components/apps/calc';
 
@@ -30,8 +30,8 @@ const apps = [
         screen: displayTerminalCalc,
     },
     {
-        id: "about-haruka",
-        title: "About Haruka",
+        id: "about-nicole",
+        title: "About Nicole",
         icon: './themes/Yaru/system/user-home.png',
         disabled: false,
         favourite: true,

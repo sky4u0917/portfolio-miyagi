@@ -19,7 +19,7 @@ export class Trash extends Component {
             },
 
             {
-                name: "haruka-react project",
+                name: "nicole-react project",
                 icon: "./themes/Yaru/system/folder.png"
             },
             {

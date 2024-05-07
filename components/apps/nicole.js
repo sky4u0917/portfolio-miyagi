@@ -90,24 +90,24 @@ export class AboutHaruka extends Component {
         return (
             <>
                 <div id="about" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "about" ? "bg-orange-800 bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " hover:cursor-pointer w-28 h-12 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className="w-5 md:w-5" alt="about haruka" src="https://img.icons8.com/office/344/user.png" />
+                    <img className="w-5 md:w-5" alt="about nicole" src="https://img.icons8.com/office/344/user.png" />
                     <span className="ml-1 md:ml-2 text-gray-50 text-lg">Overview</span>
                 </div>
                 <div id="skills" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "skills" ? "bg-orange-800 bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " hover:cursor-pointer w-28 h-12 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className="w-5 md:w-5" alt="haruka's skills" src="https://img.icons8.com/external-justicon-flat-justicon/344/external-setting-notifications-justicon-flat-justicon.png" />
+                    <img className="w-5 md:w-5" alt="nicole's skills" src="https://img.icons8.com/external-justicon-flat-justicon/344/external-setting-notifications-justicon-flat-justicon.png" />
                     <span className="ml-1 md:ml-2 text-gray-50 text-lg">Skills</span>
                 </div>
                 <div id="projects" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "projects" ? "bg-orange-800 bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " hover:cursor-pointer w-28 h-12 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className="w-5 md:w-5" alt="haruka's projects" src="https://img.icons8.com/color/344/project.png" />
+                    <img className="w-5 md:w-5" alt="nicole's projects" src="https://img.icons8.com/color/344/project.png" />
                     <span className="ml-1 md:ml-2 text-gray-50 text-lg">Projects</span>
                 </div>
                 <div className='my-4 w-28 md:w-full h-8 px-2 md:px-2.5 flex justify-center items-center'>
-                    <a class="flex justify-center items-center gap-1.5 w-4/5 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full" href="https://github.com/bluesky4u/portfolio-haruka" target="_blank">
-                      Star <img className="w-5 md:w-5" alt="haruka's projects" src="https://img.icons8.com/officel/512/star.png" />
+                    <a class="flex justify-center items-center gap-1.5 w-4/5 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full" href="https://github.com/sky4u0917/portfolio-nicole" target="_blank">
+                      Star <img className="w-5 md:w-5" alt="nicole's projects" src="https://img.icons8.com/officel/512/star.png" />
                     </a>
                 </div>
                 {/* <div className='my-0.5 w-28 md:w-full h-8 px-2 md:px-2.5 flex' >
-                    <iframe src="https://github.com/sponsors/nicolemelo/button" title="Sponsor harukamiyagi" width={"100%"} height={"100%"} ></iframe>
+                    <iframe src="https://github.com/sponsors/nicolemelo/button" title="Sponsor nicolemiyagi" width={"100%"} height={"100%"} ></iframe>
                 </div> */}
             </>
         );
@@ -145,10 +145,10 @@ function About() {
     return (
         <>
             <div className="w-28 md:w-32 mt-8 bg-white rounded-full">
-                <img className="w-full rounded-circle border-2" src="./images/logos/harukamoji.gif" alt="Haruka Miyagi Logo" />
+                <img className="w-full rounded-circle border-2" src="./images/logos/harukamoji.gif" alt="Nicole Miyagi Logo" />
             </div>
             <div className="mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
-                <div>Here is <span className="font-bold">Haruka Miyagi</span> ,</div>
+                <div>Here is <span className="font-bold">Nicole Miyagi</span> ,</div>
                 <div className="font-normal ml-1">I'm a <span className="text-orange-500 font-bold">Software Engineer!</span></div>
             </div>
             <ul className="mt-4 leading-tight tracking-tight text-sm md:text-base w-full md:w-5/6 emoji-list">
@@ -165,7 +165,7 @@ function About() {
                     <br />( Mail me up <a className='text-pink-600 font-bold' href='mailto:h.miyagi4u@gmail.com'> @h.miyagi4u@gmail.com </a> )
                 </li>
                 <li className="mt-3 list-building text-xl font-sans"> I love building <span className="text-pink-600 font-bold">awesome websites and products</span> that need wonderful services.</li>
-                <li className="mt-3 list-time text-xl font-sans"> When I am free, I like to spend my time reading books, playing games or writing <a className="text-pink-600 font-bold" href="https://medium.com/@haruka-blog" target="_blank"> some blogs.</a></li>
+                <li className="mt-3 list-time text-xl font-sans"> When I am free, I like to spend my time reading books, playing games or writing <a className="text-pink-600 font-bold" href="https://medium.com/@nicole-blog" target="_blank"> some blogs.</a></li>
             </ul>
             <br />
         </>
@@ -198,48 +198,48 @@ function Skills() {
             <div className="w-full md:w-10/12 flex justify-center items-start font-bold text-center">
                 <div className="px-4 w-1/2">
                     <div className="flex flex-wrap justify-center items-start w-full mt-2">
-                        <img className="m-1" src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=for-the-badge&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A" alt="haruka javascript" />
-                        <img className="m-1" src="https://img.shields.io/badge/-TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="haruka typescript" />
-                        <img className="m-1" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="haruka CSS3" />
-                        <img title="yes it's a language!" className="m-1" src="https://img.shields.io/badge/-HTML5-%23E44D27?style=for-the-badge&logo=html5&logoColor=ffffff" alt="haruka HTML5" />
-                        <img className="m-1" src="http://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=ffffff" alt="haruka python" />
-                        <img className="m-1" src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="haruka PHP" />
-                        <img className="m-1" src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" alt="haruka mysql" />
-                        <img className="m-1" src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="haruka postgresql" />
-                        <img className="m-1" src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="haruka mongodb" />
-                        <img src="https://img.shields.io/badge/-Sass-%23CC6699?style=for-the-badge&logo=sass&logoColor=ffffff" alt="haruka SASS" className="m-1" />
-                        <img src="https://img.shields.io/badge/-Git-%23F05032?style=for-the-badge&logo=git&logoColor=%23ffffff" alt="haruka git" className="m-1" />
-                        {/* <img src="https://img.shields.io/badge/-Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=ffffff" alt="haruka firebase" className="m-1" /> */}
-                        {/* <img src="https://img.shields.io/badge/Firefox_Browser-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white" alt="haruka mozila firefox" className="m-1" /> */}
-                        <img src="https://img.shields.io/badge/Google_chrome-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white" alt="haruka google chrome" className="m-1" />
-                        {/* <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=Jira&logoColor=white" alt="haruka jira" className="m-1" /> */}
-                        <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="haruka figma" className="m-1" />
-                        <img src="https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white" alt="haruka trello" className="m-1" />
-                        <img src="https://img.shields.io/badge/Chatbot-0066FF?style=for-the-badge&logo=chatbot&logoColor=white" alt="haruka chatbot" className="m-1" />
+                        <img className="m-1" src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=for-the-badge&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A" alt="nicole javascript" />
+                        <img className="m-1" src="https://img.shields.io/badge/-TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="nicole typescript" />
+                        <img className="m-1" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="nicole CSS3" />
+                        <img title="yes it's a language!" className="m-1" src="https://img.shields.io/badge/-HTML5-%23E44D27?style=for-the-badge&logo=html5&logoColor=ffffff" alt="nicole HTML5" />
+                        <img className="m-1" src="http://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=ffffff" alt="nicole python" />
+                        <img className="m-1" src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="nicole PHP" />
+                        <img className="m-1" src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" alt="nicole mysql" />
+                        <img className="m-1" src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="nicole postgresql" />
+                        <img className="m-1" src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="nicole mongodb" />
+                        <img src="https://img.shields.io/badge/-Sass-%23CC6699?style=for-the-badge&logo=sass&logoColor=ffffff" alt="nicole SASS" className="m-1" />
+                        <img src="https://img.shields.io/badge/-Git-%23F05032?style=for-the-badge&logo=git&logoColor=%23ffffff" alt="nicole git" className="m-1" />
+                        {/* <img src="https://img.shields.io/badge/-Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=ffffff" alt="nicole firebase" className="m-1" /> */}
+                        {/* <img src="https://img.shields.io/badge/Firefox_Browser-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white" alt="nicole mozila firefox" className="m-1" /> */}
+                        <img src="https://img.shields.io/badge/Google_chrome-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white" alt="nicole google chrome" className="m-1" />
+                        {/* <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=Jira&logoColor=white" alt="nicole jira" className="m-1" /> */}
+                        <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="nicole figma" className="m-1" />
+                        <img src="https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white" alt="nicole trello" className="m-1" />
+                        <img src="https://img.shields.io/badge/Chatbot-0066FF?style=for-the-badge&logo=chatbot&logoColor=white" alt="nicole chatbot" className="m-1" />
                     </div>
                 </div>
                 <div className="px-4 flex flex-wrap items-start w-1/2">
                     <div className="flex flex-wrap justify-center items-start w-full mt-2">
-                        <img className="m-1" src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=ffffff" alt="haruka next" />
-                        <img className="m-1" src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=ffffff" alt="haruka react" />
-                        <img className="m-1" src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D" alt="haruka vue" />
-                        <img className="m-1" src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=red" alt="haruka openai" />
-                        <img className="m-1" src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="haruka tensorflow" />
-                        <img className="m-1" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="haruka pytorch" />
-                        {/* <img className="m-1" src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="haruka flutter" /> */}
-                        <img className="m-1" src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="haruka opencv" />
-                        {/* <img className="m-1" src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="haruka django" /> */}
-                        <img className="m-1" src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="haruka laravel" />
-                        <img className="m-1" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="haruka tailwind css" />
-                        <img className="m-1" src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="haruka bootstrap" />
-                        <img src="https://img.shields.io/badge/-Nodejs-339933?style=for-the-badge&logo=Node.js&logoColor=ffffff" alt="haruka node.js" className="m-1" />
-                        <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" alt="haruka jquery" className="m-1" />
-                        {/* <img className="m-1" src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white" alt="haruka redux" /> */}
-                        {/* <img className="m-1" src="https://img.shields.io/badge/Alpine_Linux-0D597F?style=for-the-badge&logo=alpine-linux&logoColor=white" alt="haruka linux" /> */}
-                        <img className="m-1" src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="haruka google cloud" />
-                        <img className="m-1" src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="haruka aws" />
-                        {/* <img className="m-1" src="https://img.shields.io/badge/mocha.js-323330?style=for-the-badge&logo=mocha&logoColor=Brown" alt="haruka mocha" /> */}
-                        <img className="m-1" src="https://img.shields.io/badge/chai.js-323330?style=for-the-badge&logo=chai&logoColor=red" alt="haruka chai" />
+                        <img className="m-1" src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=ffffff" alt="nicole next" />
+                        <img className="m-1" src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=ffffff" alt="nicole react" />
+                        <img className="m-1" src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D" alt="nicole vue" />
+                        <img className="m-1" src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=red" alt="nicole openai" />
+                        <img className="m-1" src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="nicole tensorflow" />
+                        <img className="m-1" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="nicole pytorch" />
+                        {/* <img className="m-1" src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="nicole flutter" /> */}
+                        <img className="m-1" src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="nicole opencv" />
+                        {/* <img className="m-1" src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="nicole django" /> */}
+                        <img className="m-1" src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="nicole laravel" />
+                        <img className="m-1" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="nicole tailwind css" />
+                        <img className="m-1" src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="nicole bootstrap" />
+                        <img src="https://img.shields.io/badge/-Nodejs-339933?style=for-the-badge&logo=Node.js&logoColor=ffffff" alt="nicole node.js" className="m-1" />
+                        <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" alt="nicole jquery" className="m-1" />
+                        {/* <img className="m-1" src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white" alt="nicole redux" /> */}
+                        {/* <img className="m-1" src="https://img.shields.io/badge/Alpine_Linux-0D597F?style=for-the-badge&logo=alpine-linux&logoColor=white" alt="nicole linux" /> */}
+                        <img className="m-1" src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="nicole google cloud" />
+                        <img className="m-1" src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="nicole aws" />
+                        {/* <img className="m-1" src="https://img.shields.io/badge/mocha.js-323330?style=for-the-badge&logo=mocha&logoColor=Brown" alt="nicole mocha" /> */}
+                        <img className="m-1" src="https://img.shields.io/badge/chai.js-323330?style=for-the-badge&logo=chai&logoColor=red" alt="nicole chai" />
                     </div>
                 </div>
             </div>
@@ -354,7 +354,7 @@ function Projects() {
             <div className="font-bold relative text-2xl mt-2 md:mt-5 mb-4">
             🌟Projects🌟
             </div>
-            {/* <iframe src="https://github.com/bluesky4u/" title="haruka miyagi" className='my-4 w-5/6 md:w-3/4' ></iframe> */}
+            {/* <iframe src="https://github.com/sky4u0917/" title="nicole miyagi" className='my-4 w-5/6 md:w-3/4' ></iframe> */}
             {
                 project_list.map((project, index) => {
                     const projectNameFromLink = project.link.split('/')
