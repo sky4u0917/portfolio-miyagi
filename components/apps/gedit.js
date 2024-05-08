@@ -15,7 +15,7 @@ export class Gedit extends Component {
                     <a href="https://t.me/gr8sky4u" target="_blank" className="sm:w-2/12 w-[120px] flex flex-row justify-evenly">
                         <img className="w-28 cursor-pointer contact-icon" alt="nicole telegram" src="https://img.icons8.com/color/344/telegram-app--v1.png" />
                     </a>
-                    <a href="https://discord.gg/9qQThZ4x" target="_blank" className="sm:w-2/12 w-[120px] flex flex-row justify-evenly">
+                    <a href="https://discord.gg/aNaUKsWjc2" target="_blank" className="sm:w-2/12 w-[120px] flex flex-row justify-evenly">
                         <img className="w-28 cursor-pointer contact-icon" alt="nicole discord" src="https://img.icons8.com/avantgarde/344/discord-logo.png" />
                     </a>
                     {/* <a href="https://www.linkedin.com/in/nicole-miyagi-a4458b272/" target="_blank" className="sm:w-2/12 w-[120px] flex flex-row justify-evenly">

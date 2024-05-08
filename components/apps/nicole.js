@@ -153,14 +153,12 @@ function About() {
             </div>
             <ul className="mt-4 leading-tight tracking-tight text-sm md:text-base w-full md:w-5/6 emoji-list">
                 <li className="list-pc text-xl font-sans">
-                    I'm a skilled and motivated <span className="text-pink-600 font-bold">Front-end & Back-end developer</span> currently pursuing <span className="font-bold text-pink-600">Artificial Intelligence and Bots</span> for the modern web development.
-                    <br />- <span className="text-pink-600 font-bold">Language:</span> Javascript, Typescript, PHP, Python, Java, C, Solidity
-                    <br />- <span className="text-pink-600 font-bold">Front-end:</span> HTML, CSS, React, Next, Tailwind CSS, MUI, Bootstrap
-                    <br />- <span className="text-pink-600 font-bold">Python Library:</span> Tensorflow, PyTorch, Theano, Keras, NLTK, SpaCy
-                    <br />- <span className="text-pink-600 font-bold">C++ Library :</span> Caffe
-                    <br />- <span className="text-pink-600 font-bold">DevOps:</span> AWS, Git, CI/CD, Docker/Kubernetes, Google Cloud Platform, Azure, Digital Ocean, Firebase
-                    <br />- <span className="text-pink-600 font-bold">Database:</span> MySQL, Postgres, Oracle, MongoDB, Redis, Firebase Runtime Database, AWS DynamoDB
-                    <br />- <span className="text-pink-600 font-bold">Restful API:</span>OpenAI API, Midjourney API, ChatGPT, Stable Diffusion, Dialogflow, TTS, STT
+                    I'm a skilled and motivated <span className="text-pink-700 font-bold">Front-end & Back-end developer</span> currently pursuing <span className="font-bold text-pink-600">Artificial Intelligence and Bots</span> for the modern web development.
+                    <br />- <span className="text-pink-700 font-bold">Language:</span> Javascript, Typescript, PHP, Python, Java, C, Solidity
+                    <br />- <span className="text-pink-700 font-bold">Front-end:</span> HTML, CSS, React, Vue, Next, Tailwind CSS, MUI, Bootstrap
+                    <br />- <span className="text-pink-700 font-bold">DevOps:</span> AWS, Git, CI/CD, Docker/Kubernetes, Google Cloud Platform, Azure, Digital Ocean, Firebase
+                    <br />- <span className="text-pink-700 font-bold">Database:</span> MySQL, Oracle, MongoDB, Redis, Firebase Runtime Database, AWS DynamoDB
+                    <br />- <span className="text-pink-700 font-bold">Restful API:</span>OpenAI API, Midjourney API, ChatGPT, Text-To-Speech, Speech-To-Text
                     <br />I am ready to help your <span className="text-pink-600 font-bold">ambitious project.</span> Thank you.
                     <br />( Mail me up <a className='text-pink-600 font-bold' href='mailto:h.miyagi4u@gmail.com'> @h.miyagi4u@gmail.com </a> )
                 </li>
@@ -220,6 +218,7 @@ function Skills() {
                 </div>
                 <div className="px-4 flex flex-wrap items-start w-1/2">
                     <div className="flex flex-wrap justify-center items-start w-full mt-2">
+                        <img className="m-1" src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="nicole laravel" />
                         <img className="m-1" src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=ffffff" alt="nicole next" />
                         <img className="m-1" src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=ffffff" alt="nicole react" />
                         <img className="m-1" src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D" alt="nicole vue" />
@@ -229,7 +228,6 @@ function Skills() {
                         {/* <img className="m-1" src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="nicole flutter" /> */}
                         <img className="m-1" src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="nicole opencv" />
                         {/* <img className="m-1" src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="nicole django" /> */}
-                        <img className="m-1" src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="nicole laravel" />
                         <img className="m-1" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="nicole tailwind css" />
                         <img className="m-1" src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="nicole bootstrap" />
                         <img src="https://img.shields.io/badge/-Nodejs-339933?style=for-the-badge&logo=Node.js&logoColor=ffffff" alt="nicole node.js" className="m-1" />
@@ -250,24 +248,25 @@ function Skills() {
 function Projects() {
     const project_list = [
         {
-            name: "Forefront Chatbot",
-            date: "Feb 2023",
-            link: "https://chat.forefront.ai/",
+            name: "ComChat",
+            date: "Mar 2024",
+            link: "https://app.comchat.io/",
             description: [
-                "A better ChatGPT experience.",
-                "Sign up to get free access to GPT-4, image generation, custom personas, shareable chats, and more."
+                "Unified AI service from commune network",
+                "Launch com-chat to unlock the full potential of AI, with precise control over your data and models. Voice interface, AI personas, advanced features, and fun UX."
             ],
-            domains: [react, next, nginx, node, mongodb, amazon, js, css]
+            domains: [react, next, node, mongodb, amazon, js, css],
+            preview: "./images/projects/comchat.png"
         },
         {
-            name: "MIST NFT MARKETPLACE",
+            name: "1on1: All kinds of Teachers, Tutors, Coaches and Experts",
             date: "Sep 2022",
-            link: "https://mist.game/nft-marketplace",
+            link: "https://1on1.today/",
             description: [
-                "Mist is an open-world, Action Role Playing Game with a dynamic combat style that is unique in the world of MMOs.",
-                "Collect NFTs, battle epic monsters, and explore infinite immersive environments in this blockchain-based NFT Action RPG."
+                "Everybody could use 1on1 to find many kinds of tutors, teachers, coaches, and experts from over 120+ countries to help you accomplish your learning goals."
             ],
-            domains: [vue, laravel, ethereum, polygon]
+            domains: [vue, laravel, php, jquery],
+            preview: "./images/projects/tutor.png"
         },
         {
             name: "Watsom Content Generate Tools",
@@ -277,18 +276,8 @@ function Projects() {
                 "Watsom is a content generation tool that makes it quick and easy to generate content using GPT3.",
                 "The best excellent result than Jasper."
             ],
-            domains: [react, nginx, node, amazon, tailwindcss]
-        },
-        {
-            name: "Typetone: Personalized AI Content Platform: AI Brand Voice",
-            date: "Nov 2022",
-            link: "https://app.schrijven.ai/",
-            description: [
-                "AI content generation in the tone of your personal or brand language.",
-                "Easily automate your content in your personal writing style.",
-                "Trusharuka by 10,000+ companies."
-            ],
-            domains: [vue, ts, nuxt, nginx, jquery]
+            domains: [react, nginx, node, amazon, tailwindcss],
+            preview: "./images/projects/watsom.png"
         },
         {
             name: "ClassicDOGE | Earn up to 500% APR by Staking | NFT Pet Packs with Rewards",
@@ -298,7 +287,8 @@ function Projects() {
                 " Reward system for staking,",
                 "Minting by user randomly NFTs, Upload the NFT arts and Traits(metadata) to IPFS"
             ],
-            domains: [react, redux, jquery, polygon]
+            domains: [react, redux, jquery, polygon],
+            preview: "./images/projects/staking.png"
         },
         {
             name: "okaimono | Calculate the value of your collection",
@@ -308,7 +298,8 @@ function Projects() {
                 "A site where you can track the market price of retro games and NFTs. ",
                 "By signing up as a member, you can calculate the value of items in your collection and list your favorite collections."
             ],
-            domains: [react, nginx, antd, ubuntu, jquery, polygon]
+            domains: [react, nginx, antd, ubuntu, jquery, polygon],
+            preview: "./images/projects/okaimono.png"
         },
         {
             name: "Customer Management System",
@@ -318,7 +309,8 @@ function Projects() {
                 "This is the customer & product management system for the EC site.",
                 "It interacts with the user using the LINE chatting which implements by LINE API."
             ],
-            domains: [react, node, antd, line]
+            domains: [react, node, antd, line],
+            preview: "./images/projects/members-demo.png"
         },
         {
             name: "GARDEN OF VEGAN",
@@ -327,7 +319,8 @@ function Projects() {
             description: [
                 "THE HEALTHIEST, ORGANIC, PLANT-BASED MEAL-DELIVERY SERVICE IN AUSTRALIA.",
             ],
-            domains: [laravel, stripe, jquery, bootstrap]
+            domains: [laravel, stripe, jquery, bootstrap],
+            preview: "./images/projects/garden.png"
         },
         {
             name: "Harcouts Holiday",
@@ -336,16 +329,8 @@ function Projects() {
             description: [
                 "They’re a small, local team who have the utmost respect and care when it comes to ensuring your holiday stay is the best one it possibly could be. All their guests enjoy an outstanding level of service that is second to none, as are their beautiful private holiday homes.",
             ],
-            domains: [nest, node, nginx, postgreSQL]
-        },
-        {
-            name: "LMFX",
-            date: "Oct 2019",
-            link: "https://lmfx.com/",
-            description: [
-                "When it comes to trading, LMFX is the broker you are looking for, that offers advanced institutional and retail trading conditions to a global audience. They have thought of everything you might need, to ensure a smooth hassle-free trading experience.",
-            ],
-            domains: [next, react, jquery, node, bootstrap]
+            domains: [react, node, nginx, stripe],
+            preview: "./images/projects/harcouts.png"
         },
     ];
 
@@ -382,6 +367,9 @@ function Projects() {
                                                 <img style={{height: 35, margin: 5}} key={index} src={domain} />
                                             )) : null)
                                     }
+                                </div>
+                                <div className='flex px-5 mx-auto'>
+                                    <img style={{height: 300, margin: 5}} src={project.preview}></img>
                                 </div>
                             </div>
                         </a>
