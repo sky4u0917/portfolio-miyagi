@@ -156,8 +156,9 @@ function About() {
                     I'm a skilled and motivated <span className="text-pink-700 font-bold">Front-end & Back-end developer</span> currently pursuing <span className="font-bold text-pink-600">Artificial Intelligence and Bots</span> for the modern web development.
                     <br />- <span className="text-pink-700 font-bold">Language:</span> Javascript, Typescript, PHP, Python, Java, C, Solidity
                     <br />- <span className="text-pink-700 font-bold">Front-end:</span> HTML, CSS, React, Vue, Next, Tailwind CSS, MUI, Bootstrap
+                    <br />- <span className="text-pink-700 font-bold">Back-end:</span> Node, Nest, Laravel, Python
                     <br />- <span className="text-pink-700 font-bold">DevOps:</span> AWS, Git, CI/CD, Docker/Kubernetes, Google Cloud Platform, Azure, Digital Ocean, Firebase
-                    <br />- <span className="text-pink-700 font-bold">Database:</span> MySQL, Oracle, MongoDB, Redis, Firebase Runtime Database, AWS DynamoDB
+                    <br />- <span className="text-pink-700 font-bold">Database:</span> MySQL, Oracle, MongoDB, Firebase Runtime Database, AWS DynamoDB
                     <br />- <span className="text-pink-700 font-bold">Restful API:</span>OpenAI API, Midjourney API, ChatGPT, Text-To-Speech, Speech-To-Text
                     <br />I am ready to help your <span className="text-pink-600 font-bold">ambitious project.</span> Thank you.
                     <br />( Mail me up <a className='text-pink-600 font-bold' href='mailto:h.miyagi4u@gmail.com'> @h.miyagi4u@gmail.com </a> )
@@ -182,7 +183,7 @@ function Skills() {
                     I've worked with a variety of programming languages and frameworks.
                 </li>
                 <li className="list-arrow text-xl mt-4 leading-tight tracking-tight">
-                    <div> My areas of expertise are <strong className="text-ubt-gedit-orange"> Laravel  & MERN & Python ! </strong></div>
+                    <div> My areas of expertise are <strong className="text-ubt-gedit-orange"> Web/AI Service & SaaS Platform & API Integration ! </strong></div>
                 </li>
                 <li className="list-arrow text-xl mt-4 leading-tight tracking-tight">
                     <div>Here are my most frequently used</div>
@@ -218,9 +219,10 @@ function Skills() {
                 </div>
                 <div className="px-4 flex flex-wrap items-start w-1/2">
                     <div className="flex flex-wrap justify-center items-start w-full mt-2">
-                        <img className="m-1" src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="nicole laravel" />
+                        <img src="https://img.shields.io/badge/-Nodejs-339933?style=for-the-badge&logo=Node.js&logoColor=ffffff" alt="nicole node.js" className="m-1" />
                         <img className="m-1" src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=ffffff" alt="nicole next" />
                         <img className="m-1" src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=ffffff" alt="nicole react" />
+                        <img className="m-1" src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="nicole laravel" />
                         <img className="m-1" src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D" alt="nicole vue" />
                         <img className="m-1" src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=red" alt="nicole openai" />
                         <img className="m-1" src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="nicole tensorflow" />
@@ -230,7 +232,6 @@ function Skills() {
                         {/* <img className="m-1" src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="nicole django" /> */}
                         <img className="m-1" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="nicole tailwind css" />
                         <img className="m-1" src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="nicole bootstrap" />
-                        <img src="https://img.shields.io/badge/-Nodejs-339933?style=for-the-badge&logo=Node.js&logoColor=ffffff" alt="nicole node.js" className="m-1" />
                         <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" alt="nicole jquery" className="m-1" />
                         {/* <img className="m-1" src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white" alt="nicole redux" /> */}
                         {/* <img className="m-1" src="https://img.shields.io/badge/Alpine_Linux-0D597F?style=for-the-badge&logo=alpine-linux&logoColor=white" alt="nicole linux" /> */}
@@ -247,6 +248,17 @@ function Skills() {
 
 function Projects() {
     const project_list = [
+        {
+            name: "Vaults",
+            date: "Sep 2024",
+            link: "#",
+            description: [
+                "Payment Gateway Platform",
+                "This integrates multiple third-party payment providers for Vaults, allowing the system to handle transactions across various currencies. "
+            ],
+            domains: [next, node, mongodb, ts, js, css],
+            preview: "./images/projects/vaults.png"
+        },
         {
             name: "ComChat",
             date: "Mar 2024",
